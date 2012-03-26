@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SRH5</title>
+    <link rel="Stylesheet" type="text/css" href=main.css>
+  </head>
+                    <div id="info" >
+                        <div class=shaded>
+                            <br/>
+                                <div id="cont">
+                                    w,a,s,d(lower) to move<br/>
+                                    f,e,q - single,double and triple shot<br/>
+                                    p - pause<br/>
+                                </div>
+                            
+                        </div>
+                        <div class=plain>
+                            
+                            <input id="infoButton" type="button" value="Info" width="56px" onclick="move()" >
+                        </div>
+                    </div>
+  <script type="text/javascript" src="javascript/move.js"></script>
+	<body>
+	
+	<audio id="sndExplosion">
+		  <source src="explosion.wav" type="audio/wav" />	  
+		 
+	</audio> 
+        
+	   
+			<div id="outerDiv">
+                <div id="innerDiv">
+				    <canvas id="canvas" width="800" height="600">
+				     This text is displayed if your browser 
+				     does not support HTML5 Canvas.
+				    </canvas>
+                </div>
+                  
+			</div>
+			<script type="text/javascript" src="javascript/gameMain.js"></script>
+           
+	 
+     
+	</body>
+    
+</html>

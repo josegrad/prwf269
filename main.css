@@ -1,0 +1,91 @@
+﻿ body
+{
+    background-image:url("images/pgbg.jpg");
+    background-attachment:fixed;
+    margin: 5px auto;
+    width:830px;
+    background-color: Black;
+}
+#outerDiv
+{
+    /*position: relative;*/
+    z-index:1;
+    padding: 5px;
+	border:0px none grey;
+	background-color: Gray;
+	            
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DEDEDE', endColorstr='#B3B3B3');
+    background: -webkit-gradient(linear, left top, left bottom, from(#DEDEDE), to(#B3B3B3));
+    background: -moz-linear-gradient(top, #DEDEDE, #B3B3B3); 
+                
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+                
+    border-style:solid;
+	border-color:#F2F2F2;
+	border-bottom-color:#C7C7C7;
+	border-right-color:#C7C7C7;
+	border-width:1px;
+      position:absolute;          
+}
+#innerDiv
+{
+    z-index:1;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+                
+    padding:10px;
+    background-color:Black;
+    
+     border-style:solid;
+	border-color:#F2F2F2;
+	border-top-color:#C7C7C7;
+	border-left-color:#C7C7C7;
+	border-width:1px;
+    
+                
+}
+.shaded
+{
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DEDEDE', endColorstr='#B3B3B3');
+    background: -webkit-gradient(linear, left top, left bottom, from(#DEDEDE), to(#B3B3B3));
+    background: -moz-linear-gradient(top, #DEDEDE, #B3B3B3); 
+                
+    border-bottom-right-radius: 5px;
+}
+.plain
+{
+    background-color: #B3B3B3;
+     /*-moz-border-radius: 5px;
+     -moz-border-top-radius:1px;
+     -webkit-border-top-radius:1px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;*/
+   
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 60px;
+    padding: 3px;
+    
+}
+#cont
+{
+    color:Black;
+    padding:5px;
+    font-family: 'Arial';
+    font-size: 12px;
+}
+#info
+{
+    position:absolute;
+    top:569px;
+    left:25%;
+    color:White;
+    
+    z-index: 0;
+    
+   
+}
+
